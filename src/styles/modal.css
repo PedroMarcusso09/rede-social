@@ -1,0 +1,83 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+}
+  
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 24px;
+    background-color: var(--white-fixed);
+    position: relative;
+}
+  
+.close-button {
+    border: none;
+    color: var(--gray-3);
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute; 
+    top: 10px; 
+    right: 10px;
+}
+  
+
+  
+.modal__container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.modal-user-img {
+    margin-right: 3.25rem;
+    max-width: 3.25rem;
+    height: auto;
+    display: flex;
+}
+    
+.modal-user {
+    color: var(--gray-1);
+    font-size: var(--title-2-size);
+    font-weight: var(--title-2-weight);
+    margin-bottom: .4rem;
+}
+  
+.modal-stack {
+    color: var(--gray-2);
+    font-size: var(--text-2-size);
+    font-weight: var(--text-2-weight);
+}
+
+.modal-title {
+    color: var(--gray-1);
+    font-size: var(--title-1-size);
+    font-weight: var(--title-1-weight);
+    line-height: 2.5rem;
+}
+
+.modal-text {
+    color: var(--gray-2);
+    font-size: var(--text-1-size);
+    font-weight: var(--text-1-weight);
+    line-height: 1.75rem;
+}
+
+.modal_intro {
+    display: flex;
+    flex-direction: column;
+}

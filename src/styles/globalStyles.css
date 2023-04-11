@@ -1,0 +1,105 @@
+:root{
+    --brand-1: #4C6EF5;
+    --brand-2: #364FC7;
+    --grey-1: #191C1F;
+    --grey-2: #343A40;
+    --grey-3: #ADB5BD;
+    --grey-4: #CED4DA;
+    --grey-5: #F8F9FA;
+    --white-fixed: #ffffff;
+    --like-color: #d7443e;
+
+
+    --title-1-weight: 700;
+    --title-1-size: 1.75rem;
+    --title-1-line-height: 4.5rem;
+
+    --title-2-weight: 600;
+    --title-2-size: 1.25rem;
+    --title-2-line-height: 4rem;
+
+    --text-1-weight: 400;
+    --text-1-size: 1rem;
+    --text-1-line-height: 2.75rem;
+
+    --text-2-weight: 400;
+    --text-2-size: 0.875rem;
+    --text-2-line-height: 1.875rem;
+
+    --text-3-weight: 400;
+    --text-3-size: 0.75rem;
+    --text-3-line-height: 1.6875rem;
+}
+
+img {
+    width: 3.1875rem;
+    height: 3.25rem;
+}
+
+.header__navbar p {
+    color: var(--white-fixed);
+}
+
+.header__navbar span{
+    color: var(--white-fixed);
+}
+
+h2.main__container--userName {
+    font-size: var(--title-2-size);
+    font-weight: var(--title-2-weight);
+    color: var(--grey-1);
+    margin-bottom: .5rem;
+}
+
+p.main__container--userJob {
+    color: var(--grey-2);
+    font-size: var(--text-2-size);
+    font-weight: var(--text-2-weight);
+}
+
+h2.title_suggestions {
+    color: var(--grey-1);
+    font-size: var(--title-2-size);
+    font-weight: var(--title-2-weight);
+}
+
+.user-info h2 {
+    color: var(--grey-1);
+    font-size: var(--title-2-size);
+    font-weight: var(--title-2-weight);
+    margin-bottom: 4px;
+}
+
+.user-info p {
+    color: var(--grey-2);
+    font-size: var(--text-2-size);
+    font-weight: var(--text-2-weight);
+}
+
+.post__user-name {
+    color: var(--grey-1);
+    font-size: var(--title-2-size);
+    font-weight: var(--title-2-weight);
+    margin-bottom: .5rem;
+}
+
+.post__user-stack {
+    color: var(--grey-2);
+    font-size: var(--text-2-size);
+    font-weight: var(--text-2-weight);
+}
+ 
+.post__title {
+    color: var(--grey-1);
+    font-size: var(--title-1-size);
+    font-weight: var(--title-1-weight);
+    line-height: 2rem;
+}
+
+.post__text {
+    color: var(--grey-2);
+    font-size: var(--text-1-size);
+    font-weight: var(--text-1-weight);
+    line-height: 1.3rem;
+}
+
