@@ -1,0 +1,49 @@
+@media (min-width: 1100px) {
+  .main__container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container__newPost {
+  width: 60%;
+}
+
+.title {
+  margin-bottom: 3rem;
+}
+
+.container__suggestions{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 25rem;
+}
+
+.container__list--user-li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 25rem;
+}
+
+.btnNotFollowing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+}
+
+.container__posts--titlePosts  {
+ margin: 55px;
+}
+
+.card {
+  width: 60%;
+  margin: 55px;
+}
+
+
+
+}

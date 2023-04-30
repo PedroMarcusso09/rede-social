@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="./src/styles/globalStyles.css" />
         <link rel="stylesheet" href="./src/styles/index.css" />
         <link rel="stylesheet" href="./src/styles/modal.css">
+        <link rel="stylesheet" href="./src/styles/mediaQuery.css">
         <title>TechPosters</title>
     </head>
 
@@ -30,18 +31,12 @@
         </header>
 
         <main class="main__container">
-            <div class="main__generalContent">
                 <section class="container__newPost">
                     <div class="userInfo__div">
-                        <img
-                            src="./src/assets/img/user1.svg"
-                            alt="user-icon"
-                        />
+                        <img src="./src/assets/img/user1.svg" alt="user-icon" />
                         <div class="userInfo__parags">
                             <h2 class="main__container--userName">Samuel Leão</h2>
-                            <p class="main__container--userJob">
-                                Front end Engineer
-                            </p>
+                            <p class="main__container--userJob">Front end Engineer</p>
                         </div>
                     </div>
                     <form class="itemsPost__div">
@@ -60,9 +55,14 @@
                         </div>
                     </form>
                 </section>
-                <h2 class="title_suggestions">Sugestoes para voce seguir</h2>
-                <aside class="container__suggestions"></aside>
+                <div class="title__container">
+                <h2 class="title">Sugestões para você seguir</h2>
+                <aside class="container__suggestions">
+                    <ul class="sugest__list"></ul>
+                </aside>
             </div>
+            </div>
+        </div>
 
             <section class="container__posts">
                 <h1 class="container__posts--titlePosts">Posts</h1>
@@ -74,9 +74,10 @@
                 <div class="modal__container">
                   <div class="modal_intro">
                 <img class="modal-user-img" src="" alt="user-icon" /> 
-                
+                <div class="modal__perfil">
                 <p class="modal-user"></p>
                 <p class="modal-stack"></p>
+            </div>
               </div>
               </div>
                 <h2 class="modal-title"></h2>
@@ -84,10 +85,10 @@
                 </div>
               </div>
             </div>
+            </div>
             
 
         </main>
 <script type="module" src="./src/scripts/index.js"></script>
     </body>
 </html>
-

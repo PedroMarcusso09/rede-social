@@ -1,3 +1,7 @@
+body {
+    height: 100%;
+}
+
 header {
     position: fixed;
     z-index: 1;
@@ -24,6 +28,22 @@ header {
     margin-top: 3.75rem;
     padding: 1.25rem;
     gap: .75rem;
+}
+
+.main__container p {
+    margin-bottom: 1rem;
+}
+
+.userInfo__div {
+    display: flex;
+    align-items: center;
+}
+
+.userInfo__parags {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16px;
 }
 
 .container__newPost {
@@ -79,9 +99,11 @@ header {
 }
 
 h2 {
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1.25rem;
 }
-  
+
 .container__suggestions {
     display: flex;
     flex-direction: row;
@@ -105,7 +127,7 @@ h2 {
     flex-direction: row;
     align-items: center;
     gap: 16px;
-    min-height: 50px; 
+    height: 90px;
 }
 
 .suggested__user-icon {
@@ -114,21 +136,15 @@ h2 {
     border-radius: 50%;
 }
 
-.user-info {
-    display: flex;
-    flex-direction: column;
-}
-
 .btnNotFollowing,
 .btnFollowing {
     background-color: transparent;
-        border: 1px solid #007bff;
+    border: 1px solid #007bff;
     border-radius: 4px;
     color: #007bff;
     cursor: pointer;
     font-size: 14px;
     padding: 4px 8px;
-
 }
 
 .btnFollowing {
@@ -140,7 +156,8 @@ h2 {
     font: var(--title-1-700);
     color: var(--grey-1);
     font-weight: bold;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    font-size: 28px;
 }
 
 .post__header {
@@ -189,4 +206,3 @@ h2 {
 .custom-btn:hover {
     background-color: var(--brand-1); 
 }
-

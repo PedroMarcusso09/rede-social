@@ -29,6 +29,9 @@ const renderSuggestedUsers = () => {
     });
 };
 
+const modal = document.getElementById("modal");
+const closeButton = document.getElementById("closeButton");
+
 const showModal = () => {
     modal.style.display = "block";
 };
@@ -63,6 +66,7 @@ const renderPosts = () => {
     const postsContainer = document.querySelector(".container__posts");
     posts.forEach((post) => {
       const postItem = document.createElement("div");
+      postItem.classList.add("card");
       postItem.innerHTML = `
         <div class="post__header">
           <img src="${post.img}" alt="user-icon" class="post__user-icon" />
@@ -97,52 +101,3 @@ const renderPosts = () => {
 
 renderSuggestedUsers();
 renderPosts();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
